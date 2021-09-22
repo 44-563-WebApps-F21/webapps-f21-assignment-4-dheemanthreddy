@@ -56,3 +56,22 @@ color: rgb(230, 225, 179);
     filter: blur(3px);
     border: solid 2px rgb(184, 15, 15);
 }
+ul.navbar-horizontal {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+ul.navbar-horizontal li {
+    float:left;
+    color:#000;
+    background-color: rgb(7, 211, 0);
+}
+ul.navbar-horizontal a {
+    display:block;
+    padding:8px;
+    color: rgba(173, 173, 32, 0.911);
+}
+ul.navbar-horizontal a:hover {
+    background-color: rgb(25, 13, 102);
+    color:rgb(50, 104, 205);
+}
